@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculadora de IMC</string>
+
+    <string-array name="gender_array">
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <string-array name="underweight_array">
+        <item>Verifica si has perdido peso en los últimos 3 meses</item>
+        <item>Visita a tu médico y a tu nutricionista</item>
+        <item>Has ejercicio para aumentar masa muscular</item>
+    </string-array>
+
+    <string-array name="normal_weight_array">
+        <item>Continúa con una alimentación balanceada</item>
+        <item>Sigue ejercitándote con trabajo cardiovascular y muscular</item>
+        <item>Evita el consumo de alcohol y tabaco</item>
+    </string-array>
+
+    <string-array name="overweight_array">
+        <item>Visita a tu médico y a tu nutricionista para verificar tus niveles de azúcar y de grasas</item>
+        <item>Come más frutas y verduras</item>
+        <item>Has ejercicio que incluya trabajo muscular y cardiovascular</item>
+    </string-array>
+
+    <string-array name="obesity_array">
+        <item>Visita a tu médico y a tu nutricionista para verificar que no tengas patologías asociadas</item>
+        <item>Inicia un plan de reducción de peso vigilado y controlado</item>
+        <item></item>
+    </string-array>
+</resources>
