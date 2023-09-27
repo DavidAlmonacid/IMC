@@ -3,6 +3,7 @@ package com.example.imc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -68,6 +69,10 @@ public class ResultActivity extends AppCompatActivity {
         IMC = Math.round(IMC * 100.0) / 100.0;
 
         result.setText(String.valueOf(IMC));
+
+        if (IMC >= 18.5 && IMC < 25) {
+            result.setTextColor(Color.parseColor("#81B29A"));
+        }
     }
 
     public void showMessage() {
